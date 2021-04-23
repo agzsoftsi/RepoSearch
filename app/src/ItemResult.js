@@ -4,8 +4,10 @@ import './ItemResult.css';
 
 export default class ItemResult extends React.Component {
      render() {
+        
         var resultado = this.props.resultado;
         return (
+            
             <li className='resultado'>
             <h3>
                 <a href={resultado.html_url} target='_blank' rel='noreferrer'>
@@ -15,16 +17,17 @@ export default class ItemResult extends React.Component {
             </h3>
             <p className='resultado-info'>
                 {resultado.fork && <span className='resultado-fork'>
-                        <i className='fa fa-code-fork'/> Forked
+                        <i className='fas fa-code-branch'/> Forked
                     </span>}
             </p>
             <p className='resultado-description'>{resultado.description}</p>
             <p className='resultado-actualizado'>Updated {moment(resultado.update_at).fromNow()}</p>
+            <span className='resultado-language'> {resultado.language}</span>
             <div className='resultado-stats'>
-                <span className='resultado-stat'> {resultado.language}</span>
-                <span className='resultado-stat'> <i className='fa fa-code-fork'/> {resultado.forks_count}</span>
-                <span className='resultado-stat'> <i className='fa fa-star'/> {resultado.stargazers_count}</span>
-                <span className='resultado-stat'> <i className='fa fa-eye'/> {resultado.watchers_count}</span>
+                
+                <span> <i className='fas fa-code-branch'/> {resultado.forks_count}</span>
+                <span> <i className='fa fa-star'/> {resultado.stargazers_count}</span>
+                <span> <i className='fa fa-eye'/> {resultado.watchers_count}</span>
             </div>
            
         </li>

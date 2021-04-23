@@ -34,16 +34,18 @@ export default class FormSearch extends React.Component {
                 className='input-usuario'
                 type='text'
                 value={this.state.usuario}
+                
                 onChange={this.handleUsuario.bind(this)}
             /> 
             <button className='formulario-submit' type='submit'>Search</button>
+            <p>
             <label className='check-miembro'>
             <input type='checkbox'
                    checked={this.state.incluirMiembro}
                    onChange={this.handleMiembro.bind(this)}
                    /> Include repositories where user is part     
             </label>
-
+            </p>
         </form>
         )
     }

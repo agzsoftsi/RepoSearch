@@ -1,4 +1,35 @@
 .formulario-busqueda {
     margin: 0 auto;
-    width: 620px;
+    width:100%;
+}
+
+.input-usuario{
+    padding: 5px;
+    font-size: 20px;
+    color: rgb(11, 83, 165);
+    outline: none;
+    border: 1px solid rgba(11, 83, 165, 0.2);
+    border-radius: 5px;
+    margin-bottom: -15px;
+}
+
+.formulario-submit{
+    padding: 5px;
+    font-size: 20px;
+    color: rgb(238, 238, 238);
+    outline: none;
+    background: rgb(11, 83, 165);
+    border: 1px solid rgba(11, 83, 165, 0.2);
+    border-radius: 5px;
+    margin-bottom: -15px;
+}
+
+.formulario-submit:hover{
+       background: rgb(1, 33, 70);
+}
+
+.check-miembro{
+    color: rgb(11, 83, 165);
+    font-size: 15;
+    font-weight: 300;
 }
