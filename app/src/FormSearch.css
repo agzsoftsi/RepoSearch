@@ -6,7 +6,7 @@
 .input-usuario{
     padding: 5px;
     font-size: 20px;
-    color: rgb(11, 83, 165);
+    color: #242424;
     outline: none;
     border: 1px solid rgba(11, 83, 165, 0.2);
     border-radius: 5px;
@@ -18,18 +18,26 @@
     font-size: 20px;
     color: rgb(238, 238, 238);
     outline: none;
-    background: rgb(11, 83, 165);
+    background: #242424;
     border: 1px solid rgba(11, 83, 165, 0.2);
     border-radius: 5px;
     margin-bottom: -15px;
 }
+
+.formulario-submit i{
+
+    font-size: 20px;
+    color: rgb(238, 238, 238);
+
+}
+
 
 .formulario-submit:hover{
        background: rgb(1, 33, 70);
 }
 
 .check-miembro{
-    color: rgb(11, 83, 165);
+    color: #bdbdbd;
     font-size: 15;
     font-weight: 300;
 }

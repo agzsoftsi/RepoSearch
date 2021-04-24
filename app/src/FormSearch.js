@@ -37,7 +37,7 @@ export default class FormSearch extends React.Component {
                 
                 onChange={this.handleUsuario.bind(this)}
             /> 
-            <button className='formulario-submit' type='submit'>Search</button>
+            <button className='formulario-submit' type='submit'><i class="fas fa-search"></i></button>
             <p>
             <label className='check-miembro'>
             <input type='checkbox'

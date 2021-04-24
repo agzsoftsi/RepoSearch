@@ -1,17 +1,17 @@
 .App {
   width: 70%;
   margin: 30px auto 0;
-  color: #4f4f4f;
+  color: #bdbdbd;
   text-align: center;
  
 }
 
 .App-title {
-  color: rgb(11, 83, 165);
+  color: rgb(216, 216, 216);
 }
 
 .App-title span, i {
-  color: rgb(1, 33, 70);
+  color: #242424;
   font-weight: 900;
 }
 
